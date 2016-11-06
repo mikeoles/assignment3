@@ -1,6 +1,6 @@
 <?php
   require_once 'ChildClass.php';
-  $fantasyTeam = new ChildClass("Ball So Hard University","Buffalo Fantasy","ESPN",2016);
+  $fantasyTeam = new ChildClass("Buffalo Ballers","ESPN",2016,"Ball So Hard University");
 ?>
 
 <!doctype html>
@@ -16,7 +16,7 @@
 
     <section>
       <p>Here is my fantasy football team</p>
-      <?= $; ?>
+      <?= $fantasyTeam; ?>
 
       <p>After the draft i'm ready for the season</p>
       <?= $fantasyTeam; ?>

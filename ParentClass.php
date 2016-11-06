@@ -25,7 +25,7 @@
     }
 
     public function __toString(){
-      $leagueInfo = $this->getLeagueName() . " is a fantasy league on " . this->getWebsite() . " for the year " . this->getYear();
+      $leagueInfo = "League:".$this->getLeagueName()."\nWebsite;".this->getWebsite()."\n".this->getYear()."Season\n";
       return $leagueInfo;
     }
 	}
