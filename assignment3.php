@@ -1,6 +1,6 @@
 <?php
   require_once 'ChildClass.php';
-  $fantasyLeague = new ChildClass("ESPN",2016);
+  $fantasyTeam = new ChildClass("Ball So Hard University","Buffalo Fantasy","ESPN",2016);
 ?>
 
 <!doctype html>
@@ -8,30 +8,30 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <title>Fantasy Football League</title>
+    <title>Fantasy Football Team</title>
   </head>
 
   <body>
     <h1>2016 Fantasy Football League Results</h1>
 
     <section>
-      <p>Here is the fantasy football league</p>
-      <?= $fantasyLeague; ?>
+      <p>Here is my fantasy football team</p>
+      <?= $; ?>
 
-      <p>I've got some friends to join the league</p>
-      <?= $fantasyLeague; ?>
+      <p>After the draft i'm ready for the season</p>
+      <?= $fantasyTeam; ?>
 
-      <p>We set our team names</p>
-      <?= $fantasyLeague; ?>
+      <p>I've had a tough start to the season</p>
+      <?= $fantasyTeam; ?>
 
-      <p>Then we played the first week</p>
-      <?= $fantasyLeague; ?>
+      <p>But added a few good players</p>
+      <?= $fantasyTeam; ?>
 
-      <p>And continued for the entire season</p>
-      <?= $fantasyLeague; ?>
+      <p>And won some games</p>
+      <?= $fantasyTeam; ?>
 
-      <p>The winner and loser changed their names</p>
-      <?= $fantasyLeague; ?>
+      <p>Fantasy Football Champion!</p>
+      <?= $fantasyTeam; ?>
     </section>
 
   </body>
