@@ -15,6 +15,7 @@
     <h1>2016 Fantasy Football League Results</h1>
 
     <section>
+
       <h3>Here is my fantasy football team</h3>
       <?= $fantasyTeam; ?>
 
