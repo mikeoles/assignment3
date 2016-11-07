@@ -6,7 +6,7 @@
     private $website;
     private $year;
 
-    public function __construct($leagueName,$website,$age){
+    public function __construct($leagueName,$website,$year){
       $this->leagueName = $leagueName;
       $this->website = $website;
       $this->year = $year;
@@ -25,7 +25,7 @@
     }
 
     public function __toString(){
-      $leagueInfo = $this->getLeagueName() . " is a fantasy league on " . this->getWebsite() . " for the year " . this->getYear();
+      $leagueInfo = "League: ".$this->getLeagueName()."<br>Website: ".$this->getWebsite()."<br>".$this->getYear()." Season<br><br>";
       return $leagueInfo;
     }
 	}
