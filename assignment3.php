@@ -8,13 +8,13 @@
   <head>
     <meta charset="UTF-8">
     <title>Fantasy Football</title>
-    <link rel="stylesheet" href="C:\xampp\htdocs\assignment3\assignment3.css" type="text/css">
+    <link rel="stylesheet" href="assignment3.css">
   </head>
 
   <body>
     <h1>2016 Fantasy Football League Results</h1>
 
-    <section>
+    <section id="fantasyResults">
 
       <h3>Here is my fantasy football team</h3>
       <?= $fantasyTeam; ?>

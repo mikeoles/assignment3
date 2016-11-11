@@ -3,9 +3,32 @@
 html{
   color: white;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
-  background-image: url(http://l.yimg.com/dh/ap/fantasy/test/ff_bg_03.jpg);
+  background-image: url(http://img2.goodfon.su/original/3888x2592/5/1e/regbi-amerikanskiy-futbol.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:     cover;
+  text-align: center;
 }
 
 h3{
-  color: blue;
+  color: darkgreen;
+}
+
+h1{
+  color: black;
+  background-color: darkblue;
+  opacity: .9;
+  border-radius: 20px;
+  width: 50%;
+  margin: auto;
+  display: block;
+}
+
+#fantasyResults{
+  width: 50%;
+  background-color: black;
+  margin: auto;
+  display: block;
+  opacity: .9;
+  border-radius: 20px;
 }
